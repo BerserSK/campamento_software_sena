@@ -1,0 +1,29 @@
+[
+    {
+        "name": "PHP advance mode",
+        "website": "laravel.com/bootcamps",
+        "phone": "(111)111-11-11",
+        "description": "PHP for senior developers",
+        "average_rating": 1,
+        "average_cost": 0,
+        "user_id": 1
+    },
+    {
+        "name": "Python for data science",
+        "website": "python.com/bootcamps",
+        "phone": "(222)222-22-22",
+        "description": "Python for beginners",
+        "average_rating": 1,
+        "average_cost": 0,
+        "user_id": 1
+    },
+    {
+        "name": "JAVA and Scala mode",
+        "website": "scala.com/bootcamps",
+        "phone": "(333)333-33-33",
+        "description": "Scala for data developers",
+        "average_rating": 1,
+        "average_cost": 0,
+        "user_id": 1
+    }
+]
