@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BootcampController;
+use App\Http\Controllers\CoursesController;
+use App\Http\Controllers\ReviewsController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +25,5 @@ use App\Http\Controllers\BootcampController;
 //Clase Route: Se encarga de rutas
 //metodo apiResource: Crea rutas de cambios de estado para una entidad
 Route::apiResource('bootcamp' ,BootcampController::class);
+Route::apiResource('courses' ,CoursesController::class);
+Route::apiResource('reviews' ,ReviewsController::class);
